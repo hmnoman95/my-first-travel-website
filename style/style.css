@@ -80,7 +80,7 @@ nav ul li a {
 }
 
 .banner {
-    margin: 45px 5%;
+    margin: 45px 0;
     border-radius: 16px;
     background-image: linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../images/group13.png');
     background-size: cover;
@@ -116,7 +116,7 @@ nav ul li a {
     border: none;
     border-radius: 16px;
     padding: 0 185px;
-    padding: 10px 185px 50px 185px;
+    padding: 30px 85px 30px 85px;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -137,7 +137,7 @@ nav ul li a {
 }
 
 .btn {
-    padding: 10px 40px 10px 40px;
+    padding: 20px 30px 20px 30px;
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
