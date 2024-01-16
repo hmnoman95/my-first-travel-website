@@ -1,0 +1,79 @@
+/* Shared Style section */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* nav style section */
+nav {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    color: #FF5400;
+}
+
+.logo h3 {
+    padding-left: 10px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo img {
+    width: 48px;
+    height: 56px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding-right: 30px;
+}
+nav ul li .home {
+    color: #FF5400;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Responsive section */
+@media screen and (max-width: 600px) {
+    nav ul{
+        display: grid;
+        row-gap: 10px;
+        padding: 20px 80px;
+        /* display: none; */
+        
+        
+    }
+} 
